@@ -31,7 +31,7 @@ $mail->addAddress('ekybov@mail.ru');     // Кому будет уходить �
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка';
-$mail->Body    = '' .$userName." оставил заявку, его номер телефона: " .$userTel. "<br> E-mail: " .$userEmail. "<br> Сообщение: " .$userText;
+$mail->Body    = '' .$userName;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
