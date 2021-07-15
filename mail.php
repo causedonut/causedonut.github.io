@@ -4,10 +4,10 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
-$userName = $_POST['name'];
-$userTel = $_POST['tel'];
-$userEmail = $_POST['email'];
-$userText = $_POST['text'];
+$userName = $_POST['user_name'];
+$userTel = $_POST['user_tel'];
+$userEmail = $_POST['user_email'];
+$userText = $_POST['user_text'];
 
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
