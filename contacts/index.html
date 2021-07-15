@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Контакты</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="background">
+                    <img src="../img/main/background.webp" alt="background" class="header__img">
+                    <div class="header-info">
+                        <div class="info__logo">
+                            <i class="far fa-ruble-sign"></i>
+                            Ломбард "Альянс"
+                        </div>
+                        <div class="info__texts">
+                            <p class="info__text">Режим работы:</p>
+                            <p class="info__text">Пн-Пт: 09:00 - 18:00</p>
+                            <p class="info__text">Сб-Вс: Выходной</p>
+                        </div>
+                        <div class="info__texts">
+                            <p class="info__text">Омск</p>
+                            <p class="info__text">ул. Весенняя, 1</p>
+                            <p class="info__text">тел 8 (80000) 1-30-30</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav">
+                        <a href="../index.html" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav">
+                        <a href="../price/index.html" class="nav-link">Цены</a>
+                    </li>
+                    <li class="nav">
+                        <a href="./index.html" class="nav-link">Тарифы</a>
+                    </li>
+                    <li class="nav">
+                        <a href="../shop/index.html" class="nav-link">Магазин</a>
+                    </li>
+                    <li class="nav">
+                        <a href="../contacts/index.html" class="nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="section main">
+        <div class="container">
+            <div class="contacts">
+                <div class="contact-info">
+                    <h2 class="contact-logo">Контакты</h2>
+                    <p class="contact-title">ООО "Ломбард Альянс"</p>
+                    <p class="contact-subtitle">646670, Омская область,</p>
+                    <p class="contact-subtitle">г. Омск</p>
+                    <p class="contact-subtitle">ул. Весенняя, 1</p>
+                    <a class="contact-subtitle" href="mailto:lombard@yandex.ru">lombard@yandex.ru</a>
+                    <p class="contact-subtitle">Тел.: 8 (80000) 1-30-30</p>
+                </div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2709.4818860735086!2d73.22771559159051!3d55.17638467187455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43abacd6ebc97e1d%3A0x86d0ab67a8d9a722!2zMiDQktC10YHQtdC90L3Rj9GPINGD0LsuLCAxLCDQkdC10YDQtdCz0L7QstC-0LkgKNCe0LzRgdC60LjQuSksINCe0LzRgdC60LDRjyDQvtCx0LsuLCA2NDQ5MDE!5e0!3m2!1sru!2sru!4v1626376114650!5m2!1sru!2sru" width="587" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="form__inner">
+                <form action="../mail.php" class="form" method="POST">
+                    <input class="name" type="text" placeholder="Имя" name="name">
+                    <input class="email" type="email" placeholder="Эл. почта" name="email">
+                    <input class="tel" type="tel" placeholder="Телефон" name="tel">
+                    <input class="text" type="text" placeholder="Добавьте сообщение" name="text">
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="../js/all.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
